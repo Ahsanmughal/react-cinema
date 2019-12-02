@@ -1,0 +1,70 @@
+.grid h1 {
+  font-family: 'Abel', sans-serif;
+  font-size:42px;
+}
+.grid .grid-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(0rem, 13rem));
+  justify-content: space-evenly;
+  align-content: space-between;
+  align-items: start;
+  padding: 4rem 0;
+  grid-gap: 4rem 2rem;
+}
+
+@media only screen and(max-width : 37.5em) {
+  .grid .grid-content {
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 23rem));
+    justify-content: space-around;
+    grid-gap: 4rem 1.5rem;
+  }
+}
+
+@media only screen and (max-width : 31.25em) {
+  .grid .grid-content {
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 18rem));
+    grid-gap: 4rem 1rem;
+  }
+}
+
+/* 
+  
+.rmdb-grid-content {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+  
+.rmdb-grid-element {
+  margin: 0 40px 40px 0;
+  background: #353535;
+  max-height: 430px;
+  animation: animateGrid 0.5s;
+  overflow: hidden;
+}
+  
+@keyframes animateGrid {
+  from {
+    opacity:0;
+  }
+  to {
+    opacity:1;
+  }
+}
+  
+.rmdb-grid-element:nth-child(4n+4) {
+  margin-right: 0;
+}
+  
+@media screen and (max-width: 720px) {
+  .rmdb-grid-content {
+    grid-template-columns: auto auto;
+  }
+  
+  .rmdb-grid-element:nth-child(2n+2) {
+    margin-right: 0;
+  }
+  
+  .rmdb-grid h1 {
+    font-size:22px;
+  }
+} */

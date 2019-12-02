@@ -1,0 +1,30 @@
+.loadbtn {
+  text-align: center;
+} 
+
+.loadmorebtn {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+.loadmorebtn {
+  transition: all 0.5s cubic-bezier(0.65, -0.25, 0.25, 1.95);
+  font-weight: 900;
+  color: blue;
+  padding: 1rem;
+  background: #fff;
+  text-transform: uppercase;
+  border:1px solid #dedede;
+}
+
+.loadmorebtn:hover, .loadmorebtn:focus, .loadmorebtn:active {
+  letter-spacing: 0.125rem;
+  border: 1px solid blue;
+}

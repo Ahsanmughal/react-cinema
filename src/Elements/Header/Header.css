@@ -1,0 +1,47 @@
+.cinema-header {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+  box-sizing: border-box;
+}
+  
+.cinema-header-content {
+  max-width: 1280px;
+  min-height: 65px;
+  height: auto;
+  padding: 20px 0px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.cinema-header-logo {
+  color: black;
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.cinema-header-logo:hover {
+  color:blue;
+  text-decoration: underline;
+}
+  
+@media screen and (max-width: 500px) {
+  .cinema-header-content {
+    max-width: 1280px;
+    min-height: 0px;
+    padding: 20px 10px;
+  }
+}
+
+.cinema-header-link {
+  float: right;
+  text-decoration: none;
+  color: blue;
+  cursor: pointer;
+}
+.cinema-header-link:hover {
+  text-decoration: underline;
+}

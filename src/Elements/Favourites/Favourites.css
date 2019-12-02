@@ -1,0 +1,13 @@
+.brick {
+    border: 1px solid #dedede;
+    color: blue;
+    background-color: #fff;
+    padding: 10px;
+    transition: all 0.5s cubic-bezier(0.65, -0.25, 0.25, 1.95);
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.brick:hover, .brick:focus, .brick:active {
+    letter-spacing: 0.125rem;
+    border: 1px solid blue;
+}

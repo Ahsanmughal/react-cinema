@@ -1,0 +1,15 @@
+.home {
+  margin-bottom: 100px;
+}
+  
+.home-grid {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+@media screen and (max-width: 500px) {
+  .home-grid h1 {
+    font-size: 31px !important;
+  }
+}
