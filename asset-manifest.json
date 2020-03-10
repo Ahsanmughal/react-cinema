@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-cinema/static/css/main.1c4a6ebd.chunk.css",
+    "main.js": "/react-cinema/static/js/main.73ebd68a.chunk.js",
+    "main.js.map": "/react-cinema/static/js/main.73ebd68a.chunk.js.map",
+    "runtime-main.js": "/react-cinema/static/js/runtime-main.a7c45b19.js",
+    "runtime-main.js.map": "/react-cinema/static/js/runtime-main.a7c45b19.js.map",
+    "static/js/2.2a3077b6.chunk.js": "/react-cinema/static/js/2.2a3077b6.chunk.js",
+    "static/js/2.2a3077b6.chunk.js.map": "/react-cinema/static/js/2.2a3077b6.chunk.js.map",
+    "index.html": "/react-cinema/index.html",
+    "precache-manifest.9075e8fae11aab1cbab95635f7d85dc4.js": "/react-cinema/precache-manifest.9075e8fae11aab1cbab95635f7d85dc4.js",
+    "service-worker.js": "/react-cinema/service-worker.js",
+    "static/css/main.1c4a6ebd.chunk.css.map": "/react-cinema/static/css/main.1c4a6ebd.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a7c45b19.js",
+    "static/js/2.2a3077b6.chunk.js",
+    "static/css/main.1c4a6ebd.chunk.css",
+    "static/js/main.73ebd68a.chunk.js"
+  ]
+}
